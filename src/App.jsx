@@ -12,7 +12,7 @@ function App() {
     };
 
     fetchWeather();
-  });
+  }, []);
 
   return (
     <div className='weather_wrapper' style={meteo === "Clear" ? { backgroundColor: "green" } : { backgroundColor: "red" }}>
