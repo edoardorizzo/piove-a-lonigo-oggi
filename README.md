@@ -1,1 +1,1 @@
-Lieto di presentarvi l'utilissimo portale web che vi comunicherà probtamente se a Lonigo piove oppure no.
+Lieto di presentarvi l'utilissimo portale web che vi comunicherà prontamente se a Lonigo piove oppure no.
