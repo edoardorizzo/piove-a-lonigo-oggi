@@ -5,8 +5,6 @@ const endpoint = `https://api.weatherapi.com/v1/current.json?key=${import.meta.e
 async function doGet() {
     try {
         const response = await axios.get(endpoint)
-        console.log(response);
-
         return response.data.current.condition.text
     } catch (error) {
         console.warn(error);
