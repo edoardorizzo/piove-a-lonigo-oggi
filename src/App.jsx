@@ -29,8 +29,8 @@ function App() {
   }
 
   return (
-    <div className='weather_wrapper' style={meteo !== "Rain" ? { backgroundColor: "green" } : { backgroundColor: "red" }}>
-      {meteo !== "Rain" ? <h1 className='rain_today'>NO</h1> : <h1 className='rain_today'>SI</h1>}
+    <div className='weather_wrapper' style={meteo !== "Rain" || meteo !== "Light rain" || meteo !== "Heavy rain" ? { backgroundColor: "green" } : { backgroundColor: "red" }}>
+      {meteo !== "Rain" || meteo !== "Light rain" || meteo !== "Heavy rain" ? <h1 className='rain_today'>NO</h1> : <h1 className='rain_today'>SI</h1>}
     </div >
   )
 }
